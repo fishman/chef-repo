@@ -1,3 +1,3 @@
 name "rails"
 description "simple web app"
-run_list "recipe[apache2]", "recipe[rvm::system]", "recipe[mysql::client]"
+run_list "recipe[rvm::system]", "recipe[mysql::client]", "recipe[passenger::install]"
