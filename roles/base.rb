@@ -6,5 +6,6 @@ run_list(
   "recipe[git]",
   "recipe[build-essential]",
   "recipe[tmux]",
-  "recipe[vim]"
+  "recipe[vim]",
+  "recipe[monit:ssh]"
 )
